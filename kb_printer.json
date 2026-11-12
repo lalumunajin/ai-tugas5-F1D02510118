@@ -1,0 +1,27 @@
+{
+  "judul": "Diagnosis masalah printer (inkjet/laser) pada komputer Windows",
+  "batas": "Aturan berasal dari 2 artikel HP Tech Takes (HP Inc.) dan 1 artikel Microsoft Support, jadi mencerminkan panduan umum pabrikan untuk printer inkjet/laser rumahan atau kantor yang dipakai dengan Windows. Tidak mencakup printer label, thermal, 3D, atau printer jaringan skala besar. Hasilnya saran awal, bukan keputusan akhir.",
+  "sumber": {
+    "S1": "How to Troubleshoot a Printer That's Printing Blank Pages, Jon Shih, HP Tech Takes (HP Inc.), 5 Mar 2026, https://www.hp.com/us-en/tech-takes/printers/troubleshooting/printer-printing-blank-pages-fix.html, diakses 13 Nov 2026",
+    "S2": "Printer Troubleshooting FAQs: Quick Fixes for the Most Common Printing Problems, Oluwakemi Oladapo, HP Tech Takes (HP Inc.), 23 Feb 2026, https://www.hp.com/us-en/tech-takes/printers/troubleshooting/printer-troubleshooting-common-problems-quick-fixes.html, diakses 13 Nov 2026",
+    "S3": "Troubleshooting offline printer problems in Windows, Microsoft Support (Microsoft Corporation), 2026, https://support.microsoft.com/en-us/windows/hardware/printer/troubleshooting-offline-printer-problems-in-windows, diakses 13 Nov 2026"
+  },
+  "aturan": [
+    {"id": "R1", "jika": ["kertas keluar dalam keadaan kosong"], "mode": "dan", "maka": "cetakan kosong", "sumber": "S1",
+     "saran": ""},
+    {"id": "R2", "jika": ["cetakan kosong", "kartrid baru dan pita pelindungnya belum dilepas"], "mode": "dan", "maka": "pita pelindung kartrid belum dilepas", "sumber": "S1",
+     "saran": "Lepas semua pita plastik pelindung dari kartrid tanpa menyentuh nozel, lalu pasang kembali sampai terdengar bunyi klik."},
+    {"id": "R3", "jika": ["cetakan kosong", "tinta atau toner habis atau hampir habis"], "mode": "dan", "maka": "tinta atau toner kurang", "sumber": "S1",
+     "saran": "Cek level tinta atau toner lewat panel printer, aplikasi printer, atau pengaturan Windows, lalu ganti kartrid yang habis atau hampir habis."},
+    {"id": "R4", "jika": ["cetakan kosong", "printer berjenis inkjet", "printer sudah lama tidak dipakai (berminggu-minggu)"], "mode": "dan", "maka": "printhead tersumbat", "sumber": "S1",
+     "saran": "Jalankan fitur pembersihan printhead dari panel printer atau aplikasi printer, lalu cetak halaman uji. Ulangi bila perlu, tetapi jangan dijadikan perawatan rutin karena memakai tinta."},
+    {"id": "R5", "jika": ["halaman uji dari panel printer tercetak normal", "dokumen dari komputer tidak tercetak dengan benar"], "mode": "dan", "maka": "masalah perangkat lunak", "sumber": "S2",
+     "saran": ""},
+    {"id": "R6", "jika": ["masalah perangkat lunak", "cetakan kosong"], "mode": "dan", "maka": "driver printer usang atau rusak", "sumber": "S1",
+     "saran": "Perbarui driver lewat aplikasi pabrikan atau Windows Update. Jika tetap bermasalah, hapus printer dan pasang ulang driver terbaru dari situs dukungan pabrikan."},
+    {"id": "R7", "jika": ["masalah perangkat lunak"], "mode": "dan", "maka": "antrean cetak atau aplikasi bermasalah", "sumber": "S3",
+     "saran": "Batalkan semua dokumen di antrean cetak, jadikan printer sebagai printer default, restart layanan Print Spooler, lalu coba cetak dari aplikasi lain."},
+    {"id": "R8", "jika": ["komputer menampilkan status printer offline"], "mode": "dan", "maka": "masalah koneksi", "sumber": "S3",
+     "saran": "Matikan dan cabut printer selama 30 detik lalu nyalakan lagi, pastikan printer satu jaringan Wi-Fi dengan komputer (atau cek kabel USB di kedua ujung), lalu restart komputer."}
+  ]
+}
