@@ -77,7 +77,7 @@ def forward_chaining(kb, fakta_awal):
                  if syarat_terpenuhi(r, memori) and r["maka"] not in memori]
         if not cocok:
             break
-        r = cocok[0]                      # ambil aturan pertama
+        r = cocok[0]                      
         siklus += 1
         memori.add(r["maka"])
         asal[r["maka"]] = r
@@ -136,7 +136,7 @@ def main():
     print()
 
     akhir = kesimpulan_akhir(kb)
-    # urutkan sesuai urutan dijalankan
+    
     hasil_akhir = [r["maka"] for _, r in riwayat if r["maka"] in akhir]
 
     if hasil_akhir:
