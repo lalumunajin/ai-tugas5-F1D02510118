@@ -1,7 +1,7 @@
 # Tugas 5 - Sistem Pakar Sederhana: Diagnosis Masalah Printer
 
-**Nama:** [ISI NAMA]
-**NIM:** [ISI NIM]
+**Nama:** L. M. Munajin Romdhoni
+**NIM:** F1D02510118
 **Mata kuliah:** Kecerdasan Buatan (MKL1303131) - Teknik Informatika UNRAM
 
 ## 1. Topik dan Cara Menjalankan
