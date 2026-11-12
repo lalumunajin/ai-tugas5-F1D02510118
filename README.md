@@ -68,16 +68,12 @@ Nomor jawaban "ya" mengikuti urutan pertanyaan di program.
 | 1 | 1 (kertas kosong), 2 (pita pelindung belum dilepas) | pita pelindung kartrid belum dilepas |
 | 2 | 8 (printer offline) | masalah koneksi |
 | 3 | 4 (printer inkjet) saja | **tidak ada** (kasus negatif) |
-| 4 | 1, 3, 4, 5 | tinta atau toner kurang, printhead tersumbat |
-| 5 | 1, 6, 7 | driver printer usang atau rusak, antrean cetak atau aplikasi bermasalah |
 
 Screenshot (simpan di folder `screenshot/`):
 
 ![Kasus 1](screenshot/kasus1.png)
 ![Kasus 2](screenshot/kasus2.png)
 ![Kasus 3 - tanpa kesimpulan](screenshot/kasus3.png)
-![Kasus 4](screenshot/kasus4.png)
-![Kasus 5](screenshot/kasus5.png)
 
 ## 5. Batas Keberlakuan
 
