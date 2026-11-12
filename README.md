@@ -81,4 +81,4 @@ Pengetahuan dalam program ini berasal dari dua artikel HP Tech Takes (HP Inc.) d
 
 ## 6. Penggunaan Alat Bantu AI
 
-Claude (Anthropic) dipakai untuk membantu mencari dan membaca sumber, menyusun draf aturan, kode, dan README. [EDIT bagian ini sesuai yang benar-benar kamu lakukan, dan pastikan kamu bisa menjelaskan kode serta aturannya.]
+Claude (Anthropic) dipakai untuk membantu mencari dan membaca sumber, menyusun draf aturan, kode, dan README. 
