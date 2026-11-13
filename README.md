@@ -72,7 +72,11 @@ Nomor jawaban "ya" mengikuti urutan pertanyaan di program.
 Screenshot:
 
 ![Kasus 1](screenshot/kasus1.png)
+
+
 ![Kasus 2](screenshot/kasus2.png)
+
+
 ![Kasus 3 - tanpa kesimpulan](screenshot/kasus3.png)
 
 ## 5. Batas Keberlakuan
