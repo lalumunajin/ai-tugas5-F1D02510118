@@ -69,7 +69,7 @@ Nomor jawaban "ya" mengikuti urutan pertanyaan di program.
 | 2 | 8 (printer offline) | masalah koneksi |
 | 3 | 4 (printer inkjet) saja | **tidak ada** (kasus negatif) |
 
-Screenshot (simpan di folder `screenshot/`):
+Screenshot:
 
 ![Kasus 1](screenshot/kasus1.png)
 ![Kasus 2](screenshot/kasus2.png)
